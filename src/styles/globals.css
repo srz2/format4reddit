@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color1: #ff5700;
+  --color2: #ff4500;
+  --color3: #ff8b60;
+  --color4: #c6c6c6;
+  --color5: #9494ff;
+}
+
+#logo {
+  width: 50%;
+}
+
+main {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-container .input-nav-bar > button {
+  padding: 15px 100px;
+}
+
+.input-container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container textarea {
+  padding: 15px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 150px;
+}
+
+.input-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container button {
+  background-color: var(--color2);
+  color: var(--color4);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.button-exports {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-exports button {
+  width: 100%;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+.description-container section {
+  box-shadow: rgba(255, 68, 0, 0.482) 0px 2px 8px 0px;
+  margin: 25px;
+  padding: 10px;
+}
+
+.description-container {
+  color: var(--color3);
+}
+
+.description-container h1 {
+  font-size: 32px;
+}
+
+.description-container h2 {
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.description-container p {
+  margin-left: 20px;
+}
+
+.description-container ol,
+.description-container ul {
+  margin-left: 50px;
+}
+
+.description-container a {
+  text-decoration: underline;
+}

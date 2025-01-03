@@ -1,0 +1,12 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+      --background: rgb(15,17,19);
+      --foreground: #ff5700;
+    }
+
+    .description-container section {
+        box-shadow: rgba(255, 138, 96, 0.2) 0px 2px 8px 0px;
+        margin: 25px;
+        padding: 10px;
+      }
+  }
