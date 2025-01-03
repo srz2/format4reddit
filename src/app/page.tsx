@@ -1,6 +1,7 @@
 import Image from 'next/image.js';
 import CodeInput from './components/CodeInput.jsx'
 import Instructions from './components/Instructions.jsx'
+import Icon from './components/Icon.jsx'
 
 export default function Home() {
   return (
@@ -18,14 +19,7 @@ export default function Home() {
         <Instructions />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-      <Image
-      src="/github.svg"
-      alt="github logo"
-      width={50}
-      height={50}
-      priority
-      id='svg-icon'
-      />
+      <Icon className='svg-icon' />
       <a href="https://github.com/srz2/format4reddit">Follow on Github</a>
       </footer>
     </div>

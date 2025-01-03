@@ -112,3 +112,7 @@ ul {
 .description-container a {
   text-decoration: underline;
 }
+
+.svg-icon {
+  fill: black;
+}
