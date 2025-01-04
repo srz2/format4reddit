@@ -56,7 +56,9 @@ export default function CodeInput() {
     return (
         <div className="input-container">
             <ToastContainer
+            toastClassName="custom-toast"
             position="top-center"
+            closeButton={false}
             autoClose={1000}
             hideProgressBar
             newestOnTop

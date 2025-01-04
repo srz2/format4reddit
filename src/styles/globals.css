@@ -116,3 +116,11 @@ ul {
 .svg-icon {
   fill: black;
 }
+
+.custom-toast {
+  border: 2px solid #ff5700;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
