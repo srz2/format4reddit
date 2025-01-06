@@ -73,7 +73,7 @@ export default function CodeInput() {
                 <button onClick={clearInput} type="button">Clear</button>
             </div>
             <form action="#" method="post">
-                <textarea name="raw-code" id="raw-code-input" placeholder="Copy your code here..." value={userCode} onChange={(e) => setUserCode(e.target.value)}></textarea>
+                <textarea autoFocus name="raw-code" id="raw-code-input" placeholder="Copy your code here..." value={userCode} onChange={(e) => setUserCode(e.target.value)}></textarea>
                 <button onClick={formatCode} type="submit">Format</button>
                 <div className="button-exports">
                     <button onClick={copyToClipboard} type="button">Copy to Clipboard</button>
